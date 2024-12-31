@@ -1,0 +1,64 @@
+.InformationSection_Jessica{
+    /*border: 1px solid greenyellow;*/
+    width: 100%;
+    height: 33rem;
+    padding-top: 1.5rem;
+    background: #FFFFFF;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+/*head*/
+.jessica_head{
+    width: 7rem;
+    height: 7rem;
+}
+
+.InformationSection_Jessica_head{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 1rem; 
+}
+
+h5.Jess{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/*details section*/
+.InformationSection_Jessica_detail_flex{
+    display: flex;
+    gap: 1rem;
+}
+
+.detail_proper{
+    color: #072635;
+    margin-bottom: 1rem;
+}
+div.InformationSection_Jessica_detail > ul > li > div > p:nth-child(2){
+    font-weight: bold;
+}
+.jessica_icon{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+    border-radius: 50%;
+}
+
+/*button details */
+.show_all_flex{
+    display: flex;
+    justify-content: center;
+}
+
+.jessica_show_all{
+    padding: 1rem;
+    background: #01F0D0;
+    border: none;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.jessica_show_all:hover{
+    background: #03c8ae;
+}

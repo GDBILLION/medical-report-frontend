@@ -1,0 +1,44 @@
+
+/*patientSection_search*/
+.patientSection_search{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1em;
+    margin-bottom: 2em; 
+}
+
+li.patientSection_search:hover{
+    background: #0bd984;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, padding 0.3s ease-in-out;
+}
+
+/*patient img*/
+
+.patient_name_img{
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+/*patient h4 tag*/
+div.patientSection_search > h4{
+    color: #072635;;
+}
+
+/*patient name*/
+.bold{
+    font-weight: bold;
+    font-size: .8rem;
+    color: #072635;
+    margin-bottom: .1rem;
+}
+.light{
+    color: #707070;
+    font-size: .8rem;
+}
+.name_details{
+    display: flex;
+}
+.stop{
+    margin-left: .5rem;
+}

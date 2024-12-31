@@ -1,0 +1,43 @@
+.labResult{
+    /*border: 1px solid greenyellow;*/
+    width: 100%;
+    height: 18rem;
+    border-radius: 1rem;
+    background: #FFFFFF;
+    overflow-y: auto; 
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden; 
+}
+
+/*scroll*/
+.labResultScroll{
+    flex-grow: 1; 
+    max-height: calc(100% - 4rem); 
+    overflow-y: auto; 
+    padding-right: 0.5rem; 
+    margin: 0; 
+    scrollbar-width: thin; 
+}
+
+/*header*/
+.labResult h4{
+    color: #072635;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 2rem;
+    padding-left: .4rem;
+    
+}
+.labResult_test_flex{
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3rem 1rem;
+    margin-bottom: 1rem;
+}
+
+.labResult_test_flex:hover{
+    background: #cbc8d4;
+    cursor: pointer;
+}

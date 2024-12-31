@@ -1,0 +1,57 @@
+.nav {
+  border: none;
+  max-width: 100%;
+  height: 60px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 70px;
+  opacity: 1;
+}
+
+#root > div > div > img {
+  width: 7rem;
+}
+/*transaction*/
+.transaction {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 600px;
+}
+/*button */
+.transaction button {
+  background: transparent;
+  border: none;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.transaction button img {
+  margin-right: 5px;
+}
+
+.transaction button:hover {
+  background-color: #0bd984;
+}
+.nav_social {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.navsocial_setting_more {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  padding-left: 2em;
+  padding-right: 2em;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
